@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginLeft="10dp"
+        android:id="@+id/edtext"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入新闻关键字"
+        app:met_baseColor="#0056d3"
+        app:met_primaryColor="#982360"
+        app:met_floatingLabelText="请输入关键字"
+        app:met_floatingLabel="normal"
+        />
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="搜索"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@id/edtext"
+        android:background="@drawable/btn_default"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        />
+    <com.zly.www.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/query_recy"
+        android:layout_below="@id/edtext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emply_layout="@layout/erv_default_empty"
+
+        >
+
+    </com.zly.www.easyrecyclerview.EasyRecyclerView>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+
+        />
+
+</RelativeLayout>

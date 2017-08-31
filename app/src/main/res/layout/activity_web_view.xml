@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qp.inst_life.activity.WebViewActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/toplayout"
+        >
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="18sp"
+            android:layout_height="18sp"
+            android:src="@mipmap/back"
+            android:layout_marginLeft="18sp"
+            android:layout_marginTop="18sp"
+
+            />
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:text="简趣"
+            android:textColor="#FFFFFF"
+            />
+    </RelativeLayout>
+
+<WebView
+    android:layout_below="@id/toplayout"
+    android:id="@+id/webview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</WebView>
+<ProgressBar
+    android:id="@+id/pdbar"
+    android:layout_width="28dp"
+    android:layout_height="28dp"
+    android:layout_centerInParent="true"
+    android:visibility="gone"
+    />
+
+</RelativeLayout>

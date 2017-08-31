@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Inst_life</string>
+    <string name="empty_network_error"></string>
+    <string name="empty_no_data">没有网络，点击重试</string>
+    <string name="network_err">网络有点问题</string>
+</resources>

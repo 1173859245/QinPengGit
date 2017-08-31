@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/colorPrimaryDark"
+    >
+  <ImageView
+      android:layout_marginTop="15dp"
+      android:layout_marginLeft="10dp"
+      android:id="@+id/shouDreaw"
+      android:layout_width="25dp"
+      android:layout_height="25dp"
+      android:src="@mipmap/menu"
+      />
+<TextView
+    android:id="@+id/title_text"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:textSize="18sp"
+    android:text="简趣"
+    android:textColor="#FFFFFF"
+    />
+</RelativeLayout>

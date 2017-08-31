@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mylayout"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/curru_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第三个个"
+        />
+    <TextView
+        android:id="@+id/month_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/color_424242"
+     android:layout_marginRight="10dp"
+        />
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linearChart"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    </com.github.mikephil.charting.charts.LineChart>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:text="总指数"
+        />
+    <TextView
+        android:id="@+id/xoaofei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="0"
+        />
+
+</RelativeLayout>
+<com.github.mikephil.charting.charts.PieChart
+    android:id="@+id/mypiechart"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center_horizontal"
+    >
+
+</com.github.mikephil.charting.charts.PieChart>
+
+
+</LinearLayout>

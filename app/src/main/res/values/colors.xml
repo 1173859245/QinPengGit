@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#72BCDF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColor">#333333</color>
+    <color name="presuressTextColor">#fc5677</color>
+    <color name="bg">#F0F0F0</color>
+    <color name="color_03a9f4">#2861FE</color>
+    <color name="color_fafafa">#fafafa</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_039be5">#039be5</color>
+    <color name="color_ff5252">#ff5252</color>
+    <color name="color_3e802f">#3e802f</color>
+    <color name="color_f4b400">#f4b400</color>
+    <color name="color_b23424">#b23424</color>
+    <color name="color_424242">#424242</color>
+    <color name="color_ff000000">#ff000000</color>
+    <color name="color_de000000">#de000000</color>
+    <color name="color_8a000000">#8a000000</color>
+    <color name="color_20000000">#20000000</color>
+    <color name="color_ffcc3131">#ffcc3131</color>
+    <color name="color_ffffffff">#ffffffff</color>
+    <color name="txt_color">#48495F</color>
+    <color name="dull_blue">#3B4BBF</color>
+    <integer-array name="color_array">
+        <item>@color/color_03a9f4</item>
+        <item>@color/color_ff5252</item>
+        <item>@color/color_3e802f</item>
+        <item>@color/color_f4b400</item>
+    </integer-array>
+</resources>

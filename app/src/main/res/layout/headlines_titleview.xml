@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="50dp"
+    android:layout_height="40dp">
+  <TextView
+      android:id="@+id/headlinesTitle"
+      android:layout_width="50dp"
+      android:layout_height="40dp"
+      android:gravity="center"
+      />
+
+</LinearLayout>

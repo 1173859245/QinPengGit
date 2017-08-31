@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@mipmap/ic_menu_news"
+            android:title="待定1" />
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@mipmap/ic_menu_photo"
+            android:title="待定1"/>
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@mipmap/ic_menu_movie"
+            android:title="待定1"/>
+    </group>
+
+    <item android:id="@+id/nav_settings"
+        android:title="待定1">
+        <menu>
+            <item
+                android:id="@+id/night_theme"
+                android:title="待定1"
+                android:icon="@mipmap/night"
+                app:actionLayout="@layout/switch_layout"/>
+            <item
+                android:id="@+id/suggest"
+                android:title="待定1"
+                android:icon="@mipmap/suggest"/>
+            <item
+                android:id="@+id/about"
+                android:title="待定1"
+                android:icon="@mipmap/about"/>
+        </menu>
+    </item>
+</menu>

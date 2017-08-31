@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="190dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="4dp"
+        app:cardPreventCornerOverlap="false"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFFFFF"
+        android:foreground="?android:attr/selectableItemBackground"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/title_query"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/timeText"
+                android:textColor="@color/textColor"
+
+                />
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/title_query"
+                android:id="@+id/img"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/gv_empty"
+                />
+            <TextView
+                android:id="@+id/pdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="170dp"
+                android:textColor="@color/textColor"
+                android:layout_below="@+id/title_query"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+         />
+            <TextView
+                android:id="@+id/content"
+                android:layout_below="@id/pdate"
+                android:layout_marginLeft="170dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/textColor"
+                android:maxLines="6"
+                android:ellipsize="end"
+
+
+                />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

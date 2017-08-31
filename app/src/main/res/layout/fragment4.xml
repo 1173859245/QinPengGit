@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:id="@+id/mycontLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/title_Recy"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+         />
+    </RelativeLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:id="@+id/fab"
+            app:borderWidth="0dp"
+            android:src="@mipmap/ic_arrow_upward">
+  </android.support.design.widget.FloatingActionButton>
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/ContentRecy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+  <ProgressBar
+      android:id="@+id/progressbar"
+      android:layout_width="28dp"
+      android:layout_height="28dp"
+      android:layout_gravity="center"
+      android:visibility="gone"
+      />
+</android.support.design.widget.CoordinatorLayout>
